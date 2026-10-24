@@ -1,0 +1,43 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": ".",
+      "hasCanvas": false,
+      "bodyTextLen": 8,
+      "bodyTextHash": "e3e54a9558f0f1c2d3fd4d77ca4345badbde43fac62b6304573401ed4a7c3b89",
+      "bodyTextPrefix": "Our Chat",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": ".",
+      "hasCanvas": false,
+      "bodyTextLen": 8,
+      "bodyTextHash": "e3e54a9558f0f1c2d3fd4d77ca4345badbde43fac62b6304573401ed4a7c3b89",
+      "bodyTextPrefix": "Our Chat",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [
+    "BRAND WARNING: /workspace/public/og.jpg exists but /workspace/src/lib/og/site.json is missing \"card\": \"custom\". Bake infers custom from the file, but set the flag in /workspace/src/lib/og/site.json per /workspace/.grok/skills/og/SKILL.md so identity is explicit."
+  ],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "desktop: body text collapsed (41 -> 8 chars)",
+    "mobile: body text collapsed (41 -> 8 chars)"
+  ]
+}
